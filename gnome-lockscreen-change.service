@@ -7,4 +7,4 @@ Environment=DISPLAY=:0
 ExecStart=/bin/bash -c 'gsettings set org.gnome.desktop.screensaver picture-uri "file://$(find /usr/share/backgrounds/f*/extras/ -type f -name *.jpg -o -name *.png | shuf -n 1)"'
  
 [Install]
-WantedBy=basic.targe
+WantedBy=basic.target
