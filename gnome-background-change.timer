@@ -2,8 +2,8 @@
 Description=Rotate GNOME wallpaper timer
  
 [Timer]
-OnCalendar=*:0/15
-Persistent=true
+OnBootSec=0s
+OnUnitActiveSec=15m
 Unit=gnome-background-change.service
  
 [Install]
