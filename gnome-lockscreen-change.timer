@@ -2,7 +2,7 @@
 Description=Rotate GNOME wallpaper timer
  
 [Timer]
-OnCalendar=daily
+OnCalendar=hourly
 Persistent=true
 Unit=gnome-lockscreen-change.service
  
