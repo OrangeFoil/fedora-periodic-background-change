@@ -14,5 +14,5 @@ https://major.io/2015/02/11/rotate-gnome-3s-wallpaper-systemd-user-units-timers/
 ## Prerequisites
 At least one of Fedora's supplemental wallpaper packages must be installed.
 
-For example `sudo dnf install f28-backgrounds-extras-gnome f26-backgrounds-extras-gnome`
+For example `sudo dnf install f3*-backgrounds-extras-gnome f29-backgrounds-extras-gnome f28-backgrounds-extras-gnome f26-backgrounds-extras-gnome`
 
